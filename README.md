@@ -28,7 +28,7 @@ Ingoing arcs means the flow from the transition to a place
 
 to continue if there was no in or out going just press Enter in blank"
 
-so we will write the input as follow
+so we will enter the input as follow
 Outgoing arcs for t1:i 
 Ingoing arcs for t1: p2 p3
 Outgoing arcs for t2: p2
