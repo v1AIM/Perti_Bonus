@@ -8,7 +8,7 @@ python index.py
 ```
 
 
-### How to enter input
+### How to enter input Example 1 (Sound)
 
 This example is in slides petri net page 52
 
@@ -71,3 +71,45 @@ Reachability Graph:
  
 
 ```
+
+### How to enter input Example 2 (Not Sound)
+
+![Example2_NotSound](https://github.com/v1AIM/Perti_Bonus/assets/70938961/5a3a73c0-3ee6-4ed6-9c1e-385f31faf2ea)
+
+```
+Number of places : 7
+--> it will print the places with there i (intial) and o (last place) 
+i p1 p2 p3 p4 p5 o
+
+Intial marking (separated by spaces): 1 0 0 0 0 0 0
+
+Number of transitions: 6
+t1 t2 t3 t4 t5 t6
+
+Outgoing arcs for t1: i
+Ingoing arcs for t1: p1
+Outgoing arcs for t2: p1
+Ingoing arcs for t2: p2 p4
+Outgoing arcs for t3: p2
+Ingoing arcs for t3: p3
+Outgoing arcs for t4: p4
+Ingoing arcs for t4: p5
+Outgoing arcs for t5: p3
+Ingoing arcs for t5: o
+Outgoing arcs for t6: p5
+Ingoing arcs for t6: o
+
+Sound: False
+
+
+Reachability Graph: 
+('i',) -> t1 -> ('p1',)
+('p1',) -> t2 -> ('p2', 'p4')
+('p2', 'p4') -> t3 -> ('p3', 'p4')
+('p3', 'p4') -> t4 -> ('p3', 'p5')
+('p3', 'p5') -> t5 -> ('p5', 'o')
+('p3', 'p4') -> t5 -> ('p4', 'o')
+('p2', 'p4') -> t4 -> ('p2', 'p5')
+('p2', 'p5') -> t3 -> ('p3', 'p5')
+('p3', 'p5') -> t6 -> ('p3', 'o')
+('p2', 'p5') -> t6 -> ('p2', 'o')
