@@ -6,6 +6,7 @@ This is a Perti Net project that checks the soundness of a given workflow and ou
 ```bash
 python index.py
 ```
+you can also run on any online python compiler for example [Online Python Compiler](https://www.programiz.com/python-programming/online-compiler/)
 
 
 ### How to enter input Example 1 (Sound)
