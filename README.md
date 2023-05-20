@@ -9,8 +9,14 @@ python index.py
 
 
 ### How to enter input
+
+This example is in slides petri net page 52
+
+![Example Sound](https://github.com/v1AIM/Perti_Bonus/assets/70938961/7f14b774-7745-4831-ba10-75184835868e)
+
+
+
 ```
-for example (This example is in slides petri net page 52)
 Number of places : 6
 --> it will print the places with there i (intial) and o (last place) 
 i p1 p2 p3 p4 o
