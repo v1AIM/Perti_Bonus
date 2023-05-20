@@ -205,7 +205,7 @@ def input_places():
 
     places = {
         "i": Place(0),
-        **{f"p{i}": Place(0) for i in range(1, number_of_places)},
+        **{f"p{i}": Place(0) for i in range(1, number_of_places-1)},
         "o": Place(0)
     }
 
@@ -367,7 +367,9 @@ if __name__ == "__main__":
     petri_net = PetriNet(transitions, places)
 
     petri_net.run()
+    print()
     print(f"Sound: {petri_net.sound}")
+    print()
     print(f"Reachability Graph: ")
     for r in petri_net.reachability_graph:
         print(convert_to_string(places, r))
