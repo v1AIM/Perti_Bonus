@@ -74,6 +74,8 @@ Reachability Graph:
 
 ### How to enter input Example 2 (Not Sound)
 
+This example is in slides petri net page 36
+
 ![Example2_NotSound](https://github.com/v1AIM/Perti_Bonus/assets/70938961/5a3a73c0-3ee6-4ed6-9c1e-385f31faf2ea)
 
 ```
