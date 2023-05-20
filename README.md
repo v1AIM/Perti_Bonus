@@ -10,7 +10,7 @@ python index.py
 
 ### How to enter input
 ```
-for example 
+for example (This example is in slides petri net page 52)
 Number of places : 6
 --> it will print the places with there i (intial) and o (last place) 
 i p1 p2 p3 p4 o
@@ -25,9 +25,11 @@ t1 t2 t3 t4 t5 t6
 
 Outgoing arcs means the flow from i to a transition
 Ingoing arcs means the flow from the transition to a place 
+
+to continue if there was no in or out going just press Enter in blank"
+
 so we will write the input as follow
 Outgoing arcs for t1:i 
-"then press enter" "to continue if there was no in or out going just press Enter in blank"
 Ingoing arcs for t1: p2 p3
 Outgoing arcs for t2: p2
 Ingoing arcs for t2: p1
