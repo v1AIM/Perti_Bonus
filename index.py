@@ -1,6 +1,5 @@
 
-# Run with python 2 or 3, for the example coded up in in __main__, via
-# python index.py
+# Run using 'python index.py' in the terminal
 
 
 class Place:
