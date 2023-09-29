@@ -77,7 +77,8 @@ Reachability Graph:
 
 This example is in slides petri net page 36
 
-![Example2_NotSound](https://github.com/v1AIM/Perti_Bonus/assets/70938961/5a3a73c0-3ee6-4ed6-9c1e-385f31faf2ea)
+![image](https://github.com/v1AIM/Perti_Bonus/assets/70938961/e1a9aaf4-d8a2-4a6f-a5b3-abe3ff7f42d7)
+
 
 ```
 Number of places : 7
