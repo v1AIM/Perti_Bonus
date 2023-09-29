@@ -13,8 +13,8 @@ you can also run on any online python compiler for example [Online Python Compil
 
 This example is in slides petri net page 52
 
-![Example_Sound](https://github.com/v1AIM/Perti_Bonus/assets/70938961/a10c854a-f25f-4139-b248-4ab9e7b4803b)
 
+![image](https://github.com/v1AIM/Perti_Bonus/assets/70938961/2065ae20-172f-473b-833d-62ec9c03856b)
 
 
 
